@@ -13,14 +13,16 @@ function App() {
         <section id="hero-image">
           <div class="hero-marketing-text">
             <h1>
-              The Best <span>Games</span> Out There
+              MONETIZE YOUR <span>GAMING</span> ASSETS
             </h1>
             <h5>
-              Here at GameWarrior you can download games on a PS3, PS4, Switch,
-              Switch Lite, PC, and a smartphone (currently Android only). We
-              allow you to download the games Roblox, Fortnite, Minecraft,
-              Zelda, Mario Kart and more! Some of which cost money ($15.99 at
-              the least), and some are free, like Roblox and Fortnite...
+              MetaBorrow serves as a multi chain renting protocol that lets you
+              unlock the true potential of your in-game digital assets.
+            </h5>
+            <h5 className="mt-2">
+              MetaBorrow’s mission is to accelerate the transition of crypto and
+              non-crypto games towards a decentralised future by lending and
+              borrowing the gaming assets using the staking mechanisms.
             </h5>
             <button onclick="readMore()">Read More</button>
           </div>

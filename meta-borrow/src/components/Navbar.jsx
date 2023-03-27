@@ -1,10 +1,10 @@
 import React from "react";
-
+import {ConnectKitButton} from "connectkit"
 const Navbar = () => {
   return (
     <header>
       <div class="flex">
-        <div class="logo">
+        <div class="logo mt-4">
           <a href="index.html">
             <img
               src="https://onclickwebdesign.com/wp-content/uploads/game_warrior_logo.png"
@@ -12,7 +12,7 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <nav>
+        <nav className="mt-3">
           <button id="nav-toggle" class="hamburger-menu">
             <span class="strip"></span>
             <span class="strip"></span>
@@ -36,8 +36,8 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <button id="login-register-button">
-          Connect Wallet
+        <button id="login-register-button" className="mt-2">
+          <ConnectKitButton/>
         </button>
       </div>
     </header>
