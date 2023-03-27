@@ -1,17 +1,14 @@
 import React from "react";
-import {ConnectKitButton} from "connectkit"
+import { ConnectKitButton } from "connectkit";
+import logo from "../assets/LOGO.png";
 const Navbar = () => {
   return (
     <header>
       <div class="flex">
-        <div class="logo mt-4">
-          <a href="index.html">
-            <img
-              src="https://onclickwebdesign.com/wp-content/uploads/game_warrior_logo.png"
-              alt="Meta Borrow"
-            />
-          </a>
-        </div>
+        <a href="/" className="mt-4">
+          <img src={logo} className="w-60" alt="Meta Borrow" />
+        </a>
+
         <nav className="mt-3">
           <button id="nav-toggle" class="hamburger-menu">
             <span class="strip"></span>
@@ -36,8 +33,8 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <button id="login-register-button" className="mt-2">
-          <ConnectKitButton/>
+        <button className="mt-2">
+          <ConnectKitButton  />
         </button>
       </div>
     </header>

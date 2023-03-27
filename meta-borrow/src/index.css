@@ -13,7 +13,6 @@ body {
 
 /* start: global style rules */
 h1, h2, h3, h4, h5 {
-  line-height: 1.2;
   font-weight: 300;
   margin: 0.5em 0;
 }
@@ -54,6 +53,7 @@ p, label, strong {
   margin: 0 auto;
   padding: 0 15px;
   justify-content: space-between;
+  
 }
 
 .badge {
@@ -163,7 +163,7 @@ nav ul li a:hover {
 /* start: hero styles */
 #hero-image {
   background: url('https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg') top center no-repeat;
-  height: 820px;
+  height: 920px;
 }
 
 .hero-marketing-text {
@@ -180,7 +180,7 @@ nav ul li a:hover {
   color: #eee;
   font-size: 3.5em;
   font-weight: 300;
-  margin: 0.5em 0;
+  
 }
 
 .hero-marketing-text span {
@@ -192,7 +192,6 @@ nav ul li a:hover {
   font-size: 0.85em;
   font-weight: 300;
   max-width: 500px;
-  line-height: 2;
   margin-bottom: 2.5em;
 }
 
@@ -254,6 +253,7 @@ nav ul li a:hover {
   flex-basis: 25%;
   position: relative;
   height: 380px;
+
 }
 
 #game-types-boxes .box.new {
@@ -286,16 +286,16 @@ nav ul li a:hover {
 #game-types-boxes .box .contents {
   position: absolute;
   z-index: 2;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
-  color: #eee;
+  color: #fff;
   padding: 0 35px 0 25px;
 }
 
 #game-types-boxes .box .contents a {
   font-size: 0.8em;
   font-weight: 300;
-  color: #999;
+  color: #fff;
 }
 /* end: game types styles */
 
