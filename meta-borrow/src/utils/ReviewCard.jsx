@@ -1,7 +1,7 @@
 import React from "react";
 
 const ReviewCard = ({ item }) => {
-  console.log("item", item);
+  
   return (
     <>
       

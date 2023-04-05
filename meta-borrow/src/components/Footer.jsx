@@ -6,11 +6,9 @@ const Footer = () => {
       <div class="flex">
         <small>
           Copyright &copy; 2020 All rights reserved | This webpage was made by{" "}
-          <a href="https://oliver-smith.net" target="_blank">
-            Oliver Smith
+          <a href="" target="_blank">
+            Neeraj Choubisa
           </a>
-          . It was made using HTML5, CSS3, and some JavaScript. Made with
-          Sublime Text 3.
         </small>
         <ul>
           <li>

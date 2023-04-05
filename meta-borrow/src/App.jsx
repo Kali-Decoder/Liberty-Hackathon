@@ -8,11 +8,12 @@ import Home from "./components/Home";
 import RecentGames from "./components/RecentGames";
 import Tournament from "./components/Tournament";
 import Reviews from "./components/Reviews";
+import ChatSystem from "./components/ChatSystem";
 function App() {
   return (
     <>
       <Navbar />
-
+    
       <main>
         <Home />
 
