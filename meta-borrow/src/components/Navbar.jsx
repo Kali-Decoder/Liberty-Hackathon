@@ -5,14 +5,12 @@ import { LibrtyDevKit, NETWORK } from "librty-dev-kit";
 const Navbar = () => {
   const connectWallet = async () => {
     const ldk = new LibrtyDevKit("LDKhack", NETWORK.POLYGON, false, {
-      projectId: "ebfcdc090e2dd24e2574efb6a3d2cc96",
+      rpc: "https://polygon-rpc.com/",
     });
-    const connection = new ldk.wallet.walletConnect();
-    // Get the URI to connect to wallet connect
-    const uri = await connection.getConnectionURI();
-    await connection.connect();
 
-    console.log(uri)
+    const connection = ldk.wallet.metamask;
+    
+    console.log(await connection.getChainId());
   };
   return (
     <header>
