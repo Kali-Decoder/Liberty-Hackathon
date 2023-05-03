@@ -8,7 +8,6 @@ MetaBorrow unlocks an untapped secondary market around in-game assets where both
 
 Welcome to the Gaming DeFi future!
 
-![Screenshot](METABORROW_FLOW.png)
 As the user lands on our application, he/she can view or lend/borrow their digital gaming assets. For renting and borrowing the gaming NFT, the user need to click on "Launch Dapp". After clicking the button the user needs to connect the web application with the MetaMask account. Thereby,the user has three options: Rent, Lend and Dashboard.
 
 Lender specifies a number of parameters
